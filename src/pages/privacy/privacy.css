@@ -1,0 +1,34 @@
+.privacy-page {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto;
+    width: 90%;
+}
+
+.privacy-page-header {
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #0070ff;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.privacy-paragraph {
+    margin-bottom: 1rem;
+}
+
+.privacy-paragraph-header {
+    margin-bottom: 1rem;
+}
+
+.privacy-content {
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+    text-align: justify;
+}
+
+@media (min-width:600px) {
+    .privacy-page {
+        width: 60%;
+    }
+}

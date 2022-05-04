@@ -1,0 +1,48 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 408px;
+    border: 5px solid #0070ff;
+    border-radius: 2rem;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.card:hover,
+.card:focus-within {
+    transform: scale(1.05);
+}
+
+.card-img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+.card-body {
+    font-size: 1.2rem;
+    margin: 0 1rem;
+    padding: 0.5rem 0;
+    text-align: justify;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .card {
+        transition: all 0.5s ease-in-out;
+    }
+}
+
+@media (min-width: 500px) {
+    .card:hover,
+    .card:focus-within {
+        transform: scale(1.15);
+    }
+}

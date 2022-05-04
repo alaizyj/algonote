@@ -1,0 +1,43 @@
+.register {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 350px;
+}
+
+.register-form-title {
+    margin-bottom: 2rem;
+    color: #0070ff;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.register-input {
+    margin: 1rem 0;
+    padding: 0.8rem;
+    font-size: 1rem;
+}
+
+.register-submit-button {
+    margin: 1rem auto;
+    padding: 0.8rem;
+    width: 100%;
+    background-color: #0070ff;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.register-error-message {
+    color: red;
+    padding: 1rem;
+    font-size: 1.3rem;
+}

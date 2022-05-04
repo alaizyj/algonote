@@ -1,0 +1,43 @@
+.feature-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+    width: 90%;
+    height: auto;
+}
+
+.featurecard-img {
+    width: 100%;
+}
+
+.feature-card-desc {
+    padding: 0.5rem;
+    text-align: justify;
+    line-height: 1.5rem;
+    font-size: 1.25rem;
+}
+
+.feature-card:hover,
+.feature-card:focus-within {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(1.05);
+}
+
+@media (min-width:600px) {
+    .feature-card {
+        width: 500px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .feature-card {
+        width: 30%;
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .feature-card {
+        transition: all 0.5s ease-in-out;
+    }
+}

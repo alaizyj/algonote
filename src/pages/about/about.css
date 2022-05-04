@@ -1,0 +1,29 @@
+.about-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-page-header {
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #0070ff;
+    font-size: 2rem;
+}
+
+.about-page-subheader {
+    text-align: center;
+}
+
+.feature-cards {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    align-items: center;
+}
+
+@media (min-width: 1000px) {
+    .feature-cards {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
