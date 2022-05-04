@@ -10,24 +10,24 @@ To start the application, pull the repository to local and run 'npm install'. Th
 
 The application has 8 main pages(views) and 9 components. A simple error page is also added for pages that are not found. New users can register, only after which they can login and view the addnote page and add their notes. For Demo, you can use the existed users to login. You can Use 'Yajian' as username and any password for login. The user 'Jay' will always fail because of 'wrong password'. The views are listed below.
 
-![Home page](/final/algo-note/screenshots/home.png)
+![Home page](/screenshots/home.png)
 _Home Page_
 
-![Login page](/final/algo-note/screenshots/login.png)
+![Login page](/screenshots/login.png)
 _Login Page_
-![Register page](/final/algo-note/screenshots/register.png)
+![Register page](/screenshots/register.png)
 _Register Page_
-![Addnote page](/final/algo-note/screenshots/addnote.png)
+![Addnote page](/screenshots/addnote.png)
 _Addnote Page_
-![About page](/final/algo-note/screenshots/about.png)
+![About page](/screenshots/about.png)
 _About Page_
-![Contact page](/final/algo-note/screenshots/contact.png)
+![Contact page](/screenshots/contact.png)
 _Contact Page_
-![Datastructure page](/final/algo-note/screenshots/datastructure.png)
+![Datastructure page](/screenshots/datastructure.png)
 _Datastructure Page_
-![Privacy page](/final/algo-note/screenshots/privacy.png)
+![Privacy page](/screenshots/privacy.png)
 _Privacy Page_
-![Error page](/final/algo-note/screenshots/error.png)
+![Error page](/screenshots/error.png)
 _Error Page_
 
 ## Complex UI elements
